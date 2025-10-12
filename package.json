@@ -1,4 +1,15 @@
 {
+  "name": "frontend-tribe-single-page-dev-portfolio-resource-bundle",
+  "version": "1.0.0",
+  "description": "Single-page developer portfolio project with Babel setup.",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && babel src -d dist --presets=@babel/env --plugins=@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression",
+    "dev": "npm run build -- --watch",
+    "predeploy": "npm run build",
+    "deploy": "echo 'Deployment command goes here (e.g., netlify deploy, firebase deploy)'"
+  },
   "devDependencies": {
     "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression": "^7.27.1"
   }
