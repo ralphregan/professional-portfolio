@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression": "^7.27.1"
+  }
+}
