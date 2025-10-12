@@ -11,6 +11,9 @@
     "deploy": "echo 'Deployment command goes here (e.g., netlify deploy, firebase deploy)'"
   },
   "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
     "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression": "^7.27.1"
   }
 }
